@@ -1,9 +1,9 @@
-arg = ["Hello", "there", "and", "how", "are", "you?"]
+arg = "Hello there, and how are you?"
 
 
-def reverse_each_word(sentence)
+def reverse_each_word(arg)
   backwards_arg = []
-  
+  arg.split
   arg.each do |word| 
    backwards_arg << "#{word}"
   
