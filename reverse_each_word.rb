@@ -9,6 +9,6 @@ def reverse_each_word(arg)
   
  end
  
-    backwards_arg
+    backwards_arg.join
 end  
 
