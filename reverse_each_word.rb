@@ -5,9 +5,10 @@ def reverse_each_word(arg)
   backwards_arg = []
   
   arg.each do |word| 
-   backwards_arg << "#{word.reverse}"
+   backwards_arg << "#{word}"
+  
  end
- 
+ backwards_arg.reverse
     
 end  
 
